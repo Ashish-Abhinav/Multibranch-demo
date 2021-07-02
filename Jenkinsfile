@@ -1,12 +1,12 @@
-pipeline {
+opipeline {
     agent any
 
     stages {
-        stage('Master Branch') 
+        stage('Development Branch') 
         
           {
             steps {
-                bat 'echo "I am in Master Branch"'
+                bat 'echo "I am in Development Branch"'
                    }
                 
             }
