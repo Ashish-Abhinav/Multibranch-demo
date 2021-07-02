@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Main Branch') 
+        stage('Master Branch') 
         
           {
             steps {
-                bat 'echo "I am in Main Branch"'
+                bat 'echo "I am in Master Branch"'
                    }
                 
             }
